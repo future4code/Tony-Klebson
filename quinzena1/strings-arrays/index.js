@@ -77,6 +77,4 @@ let frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
 console.log (frutas.indexOf("Abacaxi"))
 console.log(frutas.length)
 
-*/
-
 
