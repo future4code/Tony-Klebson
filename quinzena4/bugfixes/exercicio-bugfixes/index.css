@@ -34,7 +34,7 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+    background: white;
 }
 
 .botao-amarelo {
@@ -47,7 +47,7 @@ div img {
 }
 
 .botao-amarelo:hover {
-    background-color: #c44f00;
+    background-color: #050201;
 }
 
 .container {
@@ -69,9 +69,11 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    margin-top: 0;
 }
 
 #container-de-descricao>ol {
+
     padding: 15px 0px;
 }
 
@@ -107,11 +109,16 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+   
+                
+                
 }
 
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    
+
 }
 
 
