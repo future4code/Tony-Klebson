@@ -1,0 +1,9 @@
+1. Quais são os 7 passos fundamentais para a resolução de problemas e como eles podem nos ajudar a solucionar nossos desafios de programação?
+
+Os setes passos fundamentais para resolução de problemas são: Ter atenção ao enunciado; Retirar informações Relevantes; Pensar entradas e Saídas; 
+Realizar um esquema visual; Criar o código; Testar e Refatorar.
+
+
+Seguindo os passos podemos entender melhor o problema e resolvelo antes de iniciar a implementação do código; assim poderemos ter uma melhor percepção do que fazer 
+e como fazer.
+
