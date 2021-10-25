@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    fonte-família: 'Titillium Web', sans-serif;
+    background: url("img/fundo-portifolio.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.box {
+    background: #eeeeee;
+    padding: 3rem;
+    box-shadow: 3px 3px 18px rgba(0 0 0 18);
+    border-radius: 40px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-perfil {
+    border-radius: 55px;
+}
+
+.box-especializacao {
+    margin-top: 20px;
+    background: #eeeeee;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px rgba(0 0 0 18);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.box-portfolio {
+    margin-top: 20px;
+    background: #eeeeee;
+    padding: 3rem;
+    box-shadow: 3px 3px 18px rgba(0 0 0 18);
+    border-radius: 40px;
+    align-items: center;
+}
+
+#menu-topo {
+    
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(37, 37, 39);
+    margin: 0px
+}
+
+#menu-topo li{
+    display: inline-block;
+    
+    
+}
+
+#menu-topo li a{
+    color: #fff;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    
+    
+}
+
+#menu-topo li a:hover{
+    color: rgb(60, 23, 223);
+    
+    
+}
+.box-contato {
+    background: #eeeeee;
+   
+}
+
+.paragrafo {
+    display: inline;
+}
+
+.box-esp {
+    background: #eeeeee;
+    padding: 3rem;
+    box-shadow: 3px 3px 18px rgba(0 0 0 18);
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+
+.foto-perfil-mov {
+    width: 100px;
+    height: 100px;
+    
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  footer{
+      color: white;
+      margin-top: 10px;
+  }
+
+  p{}
