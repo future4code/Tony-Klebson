@@ -1,4 +1,4 @@
-function criarArrayNomesAnimais() {
+````function criarArrayNomesAnimais() {
   const animais = [
     { nome: "Cachorro", classificacao: "mamífero" },
     { nome: "Papagaio", classificacao: "ave" },
@@ -8,4 +8,4 @@ function criarArrayNomesAnimais() {
   ]
 
 // Escreva seu código aqui
-let nomeAnimais = animais.map((strings) => { return strings.nome})
+let nomeAnimais = animais.map((nomes) => { return animais.nome})````
