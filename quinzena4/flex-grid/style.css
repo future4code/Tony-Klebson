@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* vh -> view-height -> medida referente a altura da tela */
+}
+
+header {
+    background-color: mediumvioletred;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center
+}
+
+main {
+    background-color:white;
+    flex-grow: 1;
+    color: black;
+    display: flex;
+   overflow: auto;
+}
+
+nav {
+    background-color: #f2d0e0;
+    width: 400px;
+}
+
+
+.grow1 {
+	flex-grow: 1;
+}
+
+
+
+footer {
+    background-color:mediumvioletred;
+    height: 60px;
+    align-content: center;
+}
+
+.left{
+    position:absolute;
+left:110px;
+}
+
+.imagens-menu{
+    position:flex;
+    left:10px;
+    
+}
+
+.imagem-seta{
+    position:absolute;
+    left:375px; 
+}
+.texto-menu{
+    color: black;
+    position:flex;
+    text-align: center;
+}
+.stretch {
+	align-items: stretch;
+    align-content: stretch;
+
+   
+      }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        background-color:white;
+        padding: 10px;
+        align-content: center;
+      }
+      .copy{
+          align-content: center;
+          margin-top: 10px;
+      }
